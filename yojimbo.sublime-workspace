@@ -519,17 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "TODO\n\n\nKey things I want to achieve today:\n\n1. Run a basic Unity sample (non-VR)\n\n2. Read some Unity tutorials\n\n3. Read through relevant Oculus documentation\n\n4. Setup my Rift so I have all the information I need ",
-			"file": "/Users/gaffer/oculus/TODO",
-			"file_size": 371,
-			"file_write_time": 131157562490000000,
-			"settings":
-			{
-				"buffer_size": 213,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -725,10 +714,13 @@
 	],
 	"file_history":
 	[
-		"/Users/gaffer/git/libyojimbo/yojimbo_client_server.cpp",
-		"/Users/gaffer/git/libyojimbo/tests/shared.h",
 		"/Users/gaffer/git/libyojimbo/TODO",
 		"/Users/gaffer/git/libyojimbo/CHANGES.md",
+		"/Users/gaffer/git/libyojimbo/yojimbo_packet.h",
+		"/Users/gaffer/git/libyojimbo/yojimbo_message.h",
+		"/Users/gaffer/oculus/TODO",
+		"/Users/gaffer/git/libyojimbo/yojimbo_client_server.cpp",
+		"/Users/gaffer/git/libyojimbo/tests/shared.h",
 		"/Users/gaffer/git/libyojimbo/yojimbo_client_server.h",
 		"/Users/gaffer/git/libyojimbo/tests/test.cpp",
 		"/Users/gaffer/git/libyojimbo/.git/MERGE_MSG",
@@ -752,7 +744,6 @@
 		"/Users/gaffer/oculus/NOTES",
 		"/Users/gaffer/git/libyojimbo/yojimbo_address.h",
 		"/Users/gaffer/git/libyojimbo/yojimbo_channel.h",
-		"/Users/gaffer/git/libyojimbo/yojimbo_message.h",
 		"/Users/gaffer/git/libyojimbo/yojimbo_sequence_buffer.h",
 		"/Users/gaffer/Documents/WISHLIST",
 		"/Users/gaffer/git/libyojimbo/tests/connect.cpp",
@@ -763,7 +754,6 @@
 		"/usr/include/assert.h",
 		"/Users/gaffer/Documents/star citizen/log.txt",
 		"/Users/gaffer/git/libyojimbo/yojimbo_packet.cpp",
-		"/Users/gaffer/git/libyojimbo/yojimbo_packet.h",
 		"/Users/gaffer/git/libyojimbo/yojimbo_packet_processor.h",
 		"/Users/gaffer/git/libyojimbo/yojimbo_config.h",
 		"/Users/gaffer/git/libyojimbo/yojimbo_transport.h",
@@ -851,8 +841,7 @@
 		"/Users/gaffer/git/libyojimbo/test.txt",
 		"/Users/gaffer/git/protocol/tests/Protocol/TestReliableMessageChannel.cpp",
 		"/Users/gaffer/git/libyojimbo/windows/sodium/crypto_hash_sha256.h",
-		"/Users/gaffer/git/libyojimbo/windows/mbedtls/ssl_internal.h",
-		"/Users/gaffer/git/libyojimbo/windows/mbedtls/sha512.h"
+		"/Users/gaffer/git/libyojimbo/windows/mbedtls/ssl_internal.h"
 	],
 	"find":
 	{
@@ -1077,37 +1066,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/gaffer/oculus/TODO",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 213,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								213,
-								213
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1164,16 +1124,24 @@
 		"selected_items":
 		[
 			[
-				"test.cpp",
-				"libyojimbo/tests/test.cpp"
-			],
-			[
 				"todo",
 				"libyojimbo/TODO"
 			],
 			[
+				"packet.h",
+				"libyojimbo/yojimbo_packet.h"
+			],
+			[
+				"message.h",
+				"libyojimbo/yojimbo_message.h"
+			],
+			[
 				"changes",
 				"libyojimbo/CHANGES.md"
+			],
+			[
+				"test.cpp",
+				"libyojimbo/tests/test.cpp"
 			],
 			[
 				"client_serevr.h",
@@ -1250,10 +1218,6 @@
 			[
 				"address.h",
 				"libyojimbo/yojimbo_address.h"
-			],
-			[
-				"message.h",
-				"libyojimbo/yojimbo_message.h"
 			],
 			[
 				"sequence",
@@ -1334,10 +1298,6 @@
 			[
 				"wouldbenice",
 				"libyojimbo/WOULD BE NICE"
-			],
-			[
-				"packet.h",
-				"libyojimbo/yojimbo_packet.h"
 			],
 			[
 				"re",
