@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"YOJIMBO",
+				"YOJIMBO_PROTOCOL_ERROR_NONE"
+			],
+			[
 				"ALL",
 				"ALLOCATOR_ERROR_FAILED_TO_ALLOCATE"
 			],
@@ -510,10 +514,6 @@
 			[
 				"Priority",
 				"CubePriorityInfo"
-			],
-			[
-				"Quant",
-				"QuantizedPositionBoundXY"
 			]
 		]
 	},
@@ -714,15 +714,17 @@
 	],
 	"file_history":
 	[
+		"/Users/gaffer/git/libyojimbo/tests/test.cpp",
 		"/Users/gaffer/git/libyojimbo/TODO",
+		"/Users/gaffer/git/libyojimbo/yojimbo_bitpack.h",
+		"/Users/gaffer/git/libyojimbo/yojimbo_stream.h",
+		"/Users/gaffer/git/libyojimbo/yojimbo_client_server.h",
+		"/Users/gaffer/git/libyojimbo/yojimbo_client_server.cpp",
 		"/Users/gaffer/git/libyojimbo/CHANGES.md",
 		"/Users/gaffer/git/libyojimbo/yojimbo_packet.h",
 		"/Users/gaffer/git/libyojimbo/yojimbo_message.h",
 		"/Users/gaffer/oculus/TODO",
-		"/Users/gaffer/git/libyojimbo/yojimbo_client_server.cpp",
 		"/Users/gaffer/git/libyojimbo/tests/shared.h",
-		"/Users/gaffer/git/libyojimbo/yojimbo_client_server.h",
-		"/Users/gaffer/git/libyojimbo/tests/test.cpp",
 		"/Users/gaffer/git/libyojimbo/.git/MERGE_MSG",
 		"/Users/gaffer/git/libyojimbo/tlsf/tlsf.h",
 		"/Users/gaffer/git/libyojimbo/yojimbo_allocator.cpp",
@@ -776,7 +778,6 @@
 		"/Users/gaffer/git/libyojimbo/.travis.yaml",
 		"/Users/gaffer/Desktop/yojimbo_model.cpp",
 		"/Users/gaffer/git/libyojimbo/yojimbo.cpp",
-		"/Users/gaffer/git/libyojimbo/yojimbo_stream.h",
 		"/Users/gaffer/git/libyojimbo/server.cpp",
 		"/Users/gaffer/git/libyojimbo/shared.h",
 		"/Users/gaffer/git/libyojimbo/yojimbo_serialize.h",
@@ -819,7 +820,6 @@
 		"/Users/gaffer/git/libyojimbo/yojimbo_sockets.cpp",
 		"/Users/gaffer/git/libyojimbo/yojimbo_encryption.cpp",
 		"/Users/gaffer/git/libyojimbo/yojimbo_interface.cpp",
-		"/Users/gaffer/git/libyojimbo/yojimbo_bitpack.h",
 		"/Users/gaffer/git/libyojimbo/client.cpp",
 		"/Users/gaffer/git/protocol/src/Core/Log.h",
 		"/Users/gaffer/git/libyojimbo/yojimbo_queue.h",
@@ -892,6 +892,11 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"CheckFoC",
+			"SerializeInteger",
+			"MeasureStream",
+			"ReadAlign",
+			"WriteAlign",
 			"// todo",
 			"ConnectionConfirmSendRate",
 			"MaxConnectTokenEntries",
@@ -1014,12 +1019,7 @@
 			"ClientServerResource",
 			"ResourceType",
 			"Allocator & GetDefaultAllocator",
-			"GetDefaultAllocator",
-			"MallocAllocator",
-			"Create",
-			"Allocator",
-			"assert( !",
-			"~Client"
+			"GetDefaultAllocator"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1124,8 +1124,28 @@
 		"selected_items":
 		[
 			[
+				"test.cpp",
+				"libyojimbo/tests/test.cpp"
+			],
+			[
 				"todo",
 				"libyojimbo/TODO"
+			],
+			[
+				"client_server.h",
+				"libyojimbo/yojimbo_client_server.h"
+			],
+			[
+				"server.cpp",
+				"libyojimbo/yojimbo_client_server.cpp"
+			],
+			[
+				"stream.h",
+				"libyojimbo/yojimbo_stream.h"
+			],
+			[
+				"bitpac",
+				"libyojimbo/yojimbo_bitpack.h"
 			],
 			[
 				"packet.h",
@@ -1140,15 +1160,7 @@
 				"libyojimbo/CHANGES.md"
 			],
 			[
-				"test.cpp",
-				"libyojimbo/tests/test.cpp"
-			],
-			[
 				"client_serevr.h",
-				"libyojimbo/yojimbo_client_server.h"
-			],
-			[
-				"client_server.h",
 				"libyojimbo/yojimbo_client_server.h"
 			],
 			[
@@ -1170,10 +1182,6 @@
 			[
 				"channel.cpp",
 				"libyojimbo/yojimbo_channel.cpp"
-			],
-			[
-				"server.cpp",
-				"libyojimbo/yojimbo_client_server.cpp"
 			],
 			[
 				"server.h",
@@ -1358,10 +1366,6 @@
 			[
 				"matcher.cpp",
 				"libyojimbo/yojimbo_matcher.cpp"
-			],
-			[
-				"stream.h",
-				"libyojimbo/yojimbo_stream.h"
 			],
 			[
 				"yojimbo_serialize.h",
@@ -1630,10 +1634,6 @@
 			[
 				"profil",
 				"libyojimbo/profile.cpp"
-			],
-			[
-				"packets.h",
-				"libyojimbo/yojimbo_packet_processor.h"
 			]
 		],
 		"width": 0.0
