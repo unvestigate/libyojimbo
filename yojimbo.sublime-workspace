@@ -714,12 +714,14 @@
 	],
 	"file_history":
 	[
+		"/Users/gaffer/git/libyojimbo/yojimbo_client_server.h",
+		"/Users/gaffer/git/libyojimbo/yojimbo_client_server.cpp",
+		"/Users/gaffer/git/libyojimbo/premake5.lua",
+		"/Users/gaffer/Desktop/GENNADIY",
 		"/Users/gaffer/git/libyojimbo/tests/test.cpp",
 		"/Users/gaffer/git/libyojimbo/TODO",
 		"/Users/gaffer/git/libyojimbo/yojimbo_bitpack.h",
 		"/Users/gaffer/git/libyojimbo/yojimbo_stream.h",
-		"/Users/gaffer/git/libyojimbo/yojimbo_client_server.h",
-		"/Users/gaffer/git/libyojimbo/yojimbo_client_server.cpp",
 		"/Users/gaffer/git/libyojimbo/CHANGES.md",
 		"/Users/gaffer/git/libyojimbo/yojimbo_packet.h",
 		"/Users/gaffer/git/libyojimbo/yojimbo_message.h",
@@ -739,7 +741,6 @@
 		"/Users/gaffer/git/libyojimbo/yojimbo_connection.cpp",
 		"/Users/gaffer/git/libyojimbo/WOULD BE NICE",
 		"/Users/gaffer/git/libyojimbo/tests/client.cpp",
-		"/Users/gaffer/git/libyojimbo/premake5.lua",
 		"/Users/gaffer/git/libyojimbo/docker/copyFiles.bat",
 		"/Users/gaffer/Desktop/CLIENT SERVER",
 		"/Users/gaffer/oculus/key.txt",
@@ -840,8 +841,7 @@
 		"/Users/gaffer/git/protocol/src/Protocol/ReliableMessageChannel.h",
 		"/Users/gaffer/git/libyojimbo/test.txt",
 		"/Users/gaffer/git/protocol/tests/Protocol/TestReliableMessageChannel.cpp",
-		"/Users/gaffer/git/libyojimbo/windows/sodium/crypto_hash_sha256.h",
-		"/Users/gaffer/git/libyojimbo/windows/mbedtls/ssl_internal.h"
+		"/Users/gaffer/git/libyojimbo/windows/sodium/crypto_hash_sha256.h"
 	],
 	"find":
 	{
@@ -892,6 +892,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"client timed out",
 			"CheckFoC",
 			"SerializeInteger",
 			"MeasureStream",
@@ -1018,8 +1019,7 @@
 			"::Connect",
 			"ClientServerResource",
 			"ResourceType",
-			"Allocator & GetDefaultAllocator",
-			"GetDefaultAllocator"
+			"Allocator & GetDefaultAllocator"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1124,6 +1124,14 @@
 		"selected_items":
 		[
 			[
+				"server.h",
+				"libyojimbo/yojimbo_client_server.h"
+			],
+			[
+				"prem",
+				"libyojimbo/premake5.lua"
+			],
+			[
 				"test.cpp",
 				"libyojimbo/tests/test.cpp"
 			],
@@ -1182,10 +1190,6 @@
 			[
 				"channel.cpp",
 				"libyojimbo/yojimbo_channel.cpp"
-			],
-			[
-				"server.h",
-				"libyojimbo/yojimbo_client_server.h"
 			],
 			[
 				"copyfil",
@@ -1630,10 +1634,6 @@
 			[
 				"simulator.h",
 				"libyojimbo/yojimbo_simulator.h"
-			],
-			[
-				"profil",
-				"libyojimbo/profile.cpp"
 			]
 		],
 		"width": 0.0
