@@ -4,10 +4,6 @@
 		"selected_items":
 		[
 			[
-				"YOJIMBO",
-				"YOJIMBO_PROTOCOL_ERROR_NONE"
-			],
-			[
 				"ALL",
 				"ALLOCATOR_ERROR_FAILED_TO_ALLOCATE"
 			],
@@ -514,11 +510,33 @@
 			[
 				"Priority",
 				"CubePriorityInfo"
+			],
+			[
+				"Quant",
+				"QuantizedPositionBoundXY"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "CHANGES.md",
+			"settings":
+			{
+				"buffer_size": 135534,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "TODO",
+			"settings":
+			{
+				"buffer_size": 1746,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -710,23 +728,36 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/gaffer/git/libyojimbo"
 	],
 	"file_history":
 	[
-		"/Users/gaffer/git/libyojimbo/yojimbo_client_server.h",
-		"/Users/gaffer/git/libyojimbo/yojimbo_client_server.cpp",
-		"/Users/gaffer/git/libyojimbo/premake5.lua",
-		"/Users/gaffer/Desktop/GENNADIY",
-		"/Users/gaffer/git/libyojimbo/tests/test.cpp",
-		"/Users/gaffer/git/libyojimbo/TODO",
-		"/Users/gaffer/git/libyojimbo/yojimbo_bitpack.h",
-		"/Users/gaffer/git/libyojimbo/yojimbo_stream.h",
-		"/Users/gaffer/git/libyojimbo/CHANGES.md",
-		"/Users/gaffer/git/libyojimbo/yojimbo_packet.h",
-		"/Users/gaffer/git/libyojimbo/yojimbo_message.h",
+		"/C/Users/Glenn Fiedler/libyojimbo/yojimbo.sublime-workspace",
+		"/C/Users/Glenn Fiedler/Documents/backup windows certs.pfx",
+		"/D/unity/Test Project/packets_prediction_relative_003.txt",
+		"/D/unity/Test Project/packets_prediction_relative_002.txt",
+		"/D/unity/Test Project/packets_prediction_relative_001.txt",
+		"/D/unity/Test Project/prediction.txt",
+		"/D/unity/Test Project/angular_prediction.txt",
+		"/D/unity/Test Project/linear_prediction.txt",
+		"/D/unity/Test Project/rotations.txt",
+		"/D/unity/Test Project/prediction_deltas.txt",
+		"/D/unity/Test Project/fixed_point_sqrt.txt",
+		"/D/unity/Test Project/deltas.txt",
+		"/C/Users/Glenn Fiedler/libyojimbo/yojimbo_connection.h",
+		"/C/Users/Glenn Fiedler/libyojimbo/yojimbo_bitpack.h",
+		"/C/Users/Glenn Fiedler/libyojimbo/yojimbo_connection.cpp",
+		"/C/Users/Glenn Fiedler/libyojimbo/yojimbo_sequence_buffer.h",
+		"/C/Users/Glenn Fiedler/libyojimbo/yojimbo_stream.h",
+		"/C/Users/Glenn Fiedler/libyojimbo/windows/sodium/utils.h",
+		"/C/Users/Glenn Fiedler/libyojimbo/yojimbo_common.h",
+		"/C/Users/Glenn Fiedler/libyojimbo/tests/test.cpp",
 		"/Users/gaffer/oculus/TODO",
+		"/Users/gaffer/git/libyojimbo/yojimbo_client_server.cpp",
 		"/Users/gaffer/git/libyojimbo/tests/shared.h",
+		"/Users/gaffer/git/libyojimbo/TODO",
+		"/Users/gaffer/git/libyojimbo/CHANGES.md",
+		"/Users/gaffer/git/libyojimbo/yojimbo_client_server.h",
+		"/Users/gaffer/git/libyojimbo/tests/test.cpp",
 		"/Users/gaffer/git/libyojimbo/.git/MERGE_MSG",
 		"/Users/gaffer/git/libyojimbo/tlsf/tlsf.h",
 		"/Users/gaffer/git/libyojimbo/yojimbo_allocator.cpp",
@@ -741,12 +772,14 @@
 		"/Users/gaffer/git/libyojimbo/yojimbo_connection.cpp",
 		"/Users/gaffer/git/libyojimbo/WOULD BE NICE",
 		"/Users/gaffer/git/libyojimbo/tests/client.cpp",
+		"/Users/gaffer/git/libyojimbo/premake5.lua",
 		"/Users/gaffer/git/libyojimbo/docker/copyFiles.bat",
 		"/Users/gaffer/Desktop/CLIENT SERVER",
 		"/Users/gaffer/oculus/key.txt",
 		"/Users/gaffer/oculus/NOTES",
 		"/Users/gaffer/git/libyojimbo/yojimbo_address.h",
 		"/Users/gaffer/git/libyojimbo/yojimbo_channel.h",
+		"/Users/gaffer/git/libyojimbo/yojimbo_message.h",
 		"/Users/gaffer/git/libyojimbo/yojimbo_sequence_buffer.h",
 		"/Users/gaffer/Documents/WISHLIST",
 		"/Users/gaffer/git/libyojimbo/tests/connect.cpp",
@@ -757,6 +790,7 @@
 		"/usr/include/assert.h",
 		"/Users/gaffer/Documents/star citizen/log.txt",
 		"/Users/gaffer/git/libyojimbo/yojimbo_packet.cpp",
+		"/Users/gaffer/git/libyojimbo/yojimbo_packet.h",
 		"/Users/gaffer/git/libyojimbo/yojimbo_packet_processor.h",
 		"/Users/gaffer/git/libyojimbo/yojimbo_config.h",
 		"/Users/gaffer/git/libyojimbo/yojimbo_transport.h",
@@ -779,6 +813,7 @@
 		"/Users/gaffer/git/libyojimbo/.travis.yaml",
 		"/Users/gaffer/Desktop/yojimbo_model.cpp",
 		"/Users/gaffer/git/libyojimbo/yojimbo.cpp",
+		"/Users/gaffer/git/libyojimbo/yojimbo_stream.h",
 		"/Users/gaffer/git/libyojimbo/server.cpp",
 		"/Users/gaffer/git/libyojimbo/shared.h",
 		"/Users/gaffer/git/libyojimbo/yojimbo_serialize.h",
@@ -821,31 +856,13 @@
 		"/Users/gaffer/git/libyojimbo/yojimbo_sockets.cpp",
 		"/Users/gaffer/git/libyojimbo/yojimbo_encryption.cpp",
 		"/Users/gaffer/git/libyojimbo/yojimbo_interface.cpp",
+		"/Users/gaffer/git/libyojimbo/yojimbo_bitpack.h",
 		"/Users/gaffer/git/libyojimbo/client.cpp",
-		"/Users/gaffer/git/protocol/src/Core/Log.h",
-		"/Users/gaffer/git/libyojimbo/yojimbo_queue.h",
-		"/Users/gaffer/git/libyojimbo/output.txt",
-		"/Users/gaffer/git/libyojimbo/yojimbo_interface.h",
-		"/Users/gaffer/git/libyojimbo/cppcheck.txt",
-		"/Users/gaffer/git/libyojimbo/test.make",
-		"/Users/gaffer/git/libyojimbo/yojimbo_platform.cpp",
-		"/Users/gaffer/git/libyojimbo/yojimbo_helpers.h",
-		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/new",
-		"/Users/gaffer/git/libyojimbo/ROADMAP.md",
-		"/Users/gaffer/Documents/KARAOKI",
-		"/Users/gaffer/git/libyojimbo/rapidjson/allocators.h",
-		"/Users/gaffer/git/libyojimbo/rapidjson/encodedstream.h",
-		"/Users/gaffer/git/protocol/src/Protocol/ReliableMessageChannel.cpp",
-		"/Users/gaffer/git/libyojimbo/windows/sodium/crypto_onetimeauth_poly1305.h",
-		"/Users/gaffer/git/libyojimbo/yojimbo_bit_array.h",
-		"/Users/gaffer/git/protocol/src/Protocol/ReliableMessageChannel.h",
-		"/Users/gaffer/git/libyojimbo/test.txt",
-		"/Users/gaffer/git/protocol/tests/Protocol/TestReliableMessageChannel.cpp",
-		"/Users/gaffer/git/libyojimbo/windows/sodium/crypto_hash_sha256.h"
+		"/Users/gaffer/git/protocol/src/Core/Log.h"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -892,12 +909,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"client timed out",
-			"CheckFoC",
-			"SerializeInteger",
-			"MeasureStream",
-			"ReadAlign",
-			"WriteAlign",
+			"ConnectionSentPacketData",
 			"// todo",
 			"ConnectionConfirmSendRate",
 			"MaxConnectTokenEntries",
@@ -1019,7 +1031,12 @@
 			"::Connect",
 			"ClientServerResource",
 			"ResourceType",
-			"Allocator & GetDefaultAllocator"
+			"Allocator & GetDefaultAllocator",
+			"GetDefaultAllocator",
+			"MallocAllocator",
+			"Create",
+			"Allocator",
+			"assert( !"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1066,14 +1083,73 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "CHANGES.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 135534,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1190,
+								1190
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "TODO",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15,
+								15
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -1114,7 +1190,7 @@
 	"project": "yojimbo.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1124,51 +1200,51 @@
 		"selected_items":
 		[
 			[
-				"server.h",
-				"libyojimbo/yojimbo_client_server.h"
-			],
-			[
-				"prem",
-				"libyojimbo/premake5.lua"
-			],
-			[
-				"test.cpp",
-				"libyojimbo/tests/test.cpp"
-			],
-			[
 				"todo",
-				"libyojimbo/TODO"
-			],
-			[
-				"client_server.h",
-				"libyojimbo/yojimbo_client_server.h"
-			],
-			[
-				"server.cpp",
-				"libyojimbo/yojimbo_client_server.cpp"
-			],
-			[
-				"stream.h",
-				"libyojimbo/yojimbo_stream.h"
-			],
-			[
-				"bitpac",
-				"libyojimbo/yojimbo_bitpack.h"
-			],
-			[
-				"packet.h",
-				"libyojimbo/yojimbo_packet.h"
-			],
-			[
-				"message.h",
-				"libyojimbo/yojimbo_message.h"
+				"libyojimbo\\TODO"
 			],
 			[
 				"changes",
-				"libyojimbo/CHANGES.md"
+				"libyojimbo\\CHANGES.md"
+			],
+			[
+				"test.cpp",
+				"libyojimbo\\tests\\test.cpp"
+			],
+			[
+				"common.h",
+				"libyojimbo\\yojimbo_common.h"
+			],
+			[
+				"connection.h",
+				"libyojimbo\\yojimbo_connection.h"
+			],
+			[
+				"sequenc",
+				"libyojimbo\\yojimbo_sequence_buffer.h"
+			],
+			[
+				"connection",
+				"libyojimbo\\yojimbo_connection.cpp"
+			],
+			[
+				"util.h",
+				"libyojimbo\\windows\\sodium\\utils.h"
+			],
+			[
+				"yojimbo_stream.h",
+				"libyojimbo\\yojimbo_stream.h"
+			],
+			[
+				"bitpac",
+				"libyojimbo\\yojimbo_bitpack.h"
 			],
 			[
 				"client_serevr.h",
+				"libyojimbo/yojimbo_client_server.h"
+			],
+			[
+				"client_server.h",
 				"libyojimbo/yojimbo_client_server.h"
 			],
 			[
@@ -1192,6 +1268,14 @@
 				"libyojimbo/yojimbo_channel.cpp"
 			],
 			[
+				"server.cpp",
+				"libyojimbo/yojimbo_client_server.cpp"
+			],
+			[
+				"server.h",
+				"libyojimbo/yojimbo_client_server.h"
+			],
+			[
 				"copyfil",
 				"libyojimbo/docker/copyFiles.bat"
 			],
@@ -1206,10 +1290,6 @@
 			[
 				"would",
 				"libyojimbo/WOULD BE NICE"
-			],
-			[
-				"connection.h",
-				"libyojimbo/yojimbo_connection.h"
 			],
 			[
 				"tlsf.h",
@@ -1230,6 +1310,10 @@
 			[
 				"address.h",
 				"libyojimbo/yojimbo_address.h"
+			],
+			[
+				"message.h",
+				"libyojimbo/yojimbo_message.h"
 			],
 			[
 				"sequence",
@@ -1312,6 +1396,10 @@
 				"libyojimbo/WOULD BE NICE"
 			],
 			[
+				"packet.h",
+				"libyojimbo/yojimbo_packet.h"
+			],
+			[
 				"re",
 				"libyojimbo/RESEARCH.md"
 			],
@@ -1370,6 +1458,10 @@
 			[
 				"matcher.cpp",
 				"libyojimbo/yojimbo_matcher.cpp"
+			],
+			[
+				"stream.h",
+				"libyojimbo/yojimbo_stream.h"
 			],
 			[
 				"yojimbo_serialize.h",
@@ -1552,10 +1644,6 @@
 				"libyojimbo/yojimbo_packet_processor.cpp"
 			],
 			[
-				"common.h",
-				"libyojimbo/yojimbo_common.h"
-			],
-			[
 				"cliet_server",
 				"libyojimbo/yojimbo_client_server.h"
 			],
@@ -1622,18 +1710,6 @@
 			[
 				"common.cpp",
 				"libyojimbo/yojimbo_common.cpp"
-			],
-			[
-				"seuence_bufer",
-				"libyojimbo/yojimbo_sequence_buffer.h"
-			],
-			[
-				"sequence.h",
-				"libyojimbo/yojimbo_sequence_buffer.h"
-			],
-			[
-				"simulator.h",
-				"libyojimbo/yojimbo_simulator.h"
 			]
 		],
 		"width": 0.0
